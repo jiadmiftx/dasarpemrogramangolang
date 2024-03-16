@@ -165,7 +165,7 @@ fmt.Println(fruits)  // ["apple", "grape", "banana"]
 fmt.Println(cFruits) // ["apple", "grape", "banana", "papaya"]
 ```
 
-Ada 3 hal yang perlu diketahui dalam penggunaan fungsi ini.
+Ada 2 hal yang perlu diketahui dalam penggunaan fungsi ini.
 
  - Ketika jumlah elemen dan lebar kapasitas adalah sama (`len(fruits) == cap(fruits)`), maka elemen baru hasil `append()` merupakan referensi baru.
  - Ketika jumlah elemen lebih kecil dibanding kapasitas (`len(fruits) < cap(fruits)`), elemen baru tersebut ditempatkan ke dalam cakupan kapasitas, menjadikan semua elemen slice lain yang referensi-nya sama akan berubah nilainya.
